@@ -1,4 +1,4 @@
-USE	kings_league_v2;
+USE	kings_league_v3;
 
 #Insercion Datos de la liga
 INSERT INTO liga VALUES 
@@ -190,7 +190,7 @@ INSERT INTO staff VALUES
 
 
 #Insercion datos de los jugadores
-INSERT INTO jugador_test VALUES
+INSERT INTO jugador VALUES
 (NULL,'Ricardo','Lopez','Arquero','1983-07-15',1,1,NULL),
 (NULL,'Roman','Alegre','Defensa','1990-04-23',0,1,1),
 (NULL,'Mark','Sorroche','Delantero','1987-12-05',0,1,1),
