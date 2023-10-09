@@ -485,3 +485,4 @@ CREATE
     TRIGGER  triger_delete_jugadores
  AFTER DELETE ON jugador FOR EACH ROW 
     INSERT INTO _respaldo_jugadores (id_jugador , nombre_jugador , apellido_jugador , accion , fecha_modificacion , responsable) VALUES (OLD.id_jugador , OLD.nombre , OLD.apellido , 'DELETE' , CURRENT_TIMESTAMP() , USER());
+    
